@@ -1,0 +1,119 @@
+.navbarbg-light {
+    background-color: antiquewhite;
+    text-align: right; 
+    margin-bottom: 60px;
+}
+
+#logo {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+body {
+    background: linear-gradient(70deg, rgb(255, 175, 143), antiquewhite);
+
+}
+#container {
+    text-align: right;
+    margin-right: 60px;
+}
+
+.portada{
+    height:"400px";
+    width:"1000px"; 
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+
+.fotoDePerfil{
+    width:"200";
+    height:"270";
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+#fotodecribe {
+    float: left;
+    margin-right: 30px;
+
+}
+
+#textodescribe {
+    margin: 30px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-style: oblique;
+}
+
+#nombre {
+    margin-top: 100px;
+}
+
+#nombre2{
+    margin-bottom: 50px;
+}
+
+#educacion {
+    width: 250px;
+}
+
+#more {
+    display: none;
+}
+
+#blandas {
+    font-style: oblique;
+    margin-left: 60px;
+    font-size: 20px;
+    position: relative;
+    top: 48px;
+}
+
+#duras {
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 180px;
+    top: 60px;
+}
+
+circle {
+    fill: none;
+    stroke-dasharray: 100 100;
+    stroke: dimgray ;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+
+circle:nth-child(2) {
+    stroke: green;
+    stroke-dasharray: var(--porcentaje)  100;
+}
+
+#graficos {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+#tabla2{
+    border: 1px solid #165480;
+    width: 200px;
+ }
+ #cabtab2{
+    background-color: #5fa6d7;
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 2 2 2 2px;
+ }
+ #cuerpotab2{
+    font-size: 8pt;
+    padding: 4 4 4 4px;
+    background-color: #ffffcc;
+ }
